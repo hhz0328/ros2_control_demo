@@ -11,7 +11,7 @@ ros2 control list_controllers
 ros2 topic list
 ```
 
-**1.rrbot_demo-main(差速小车模型），启动gazebo，用ros2_control命令行控制**
+## 1.rrbot_demo-main(差速小车模型），启动gazebo，用ros2_control命令行控制
 
 参考：https://github.com/WMGIII/bbot_demo
 ```
@@ -23,7 +23,7 @@ ros2 launch bbot_bringup bbot_bringup.launch.py
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_drie/cmd_vel_unstamped
 
 ```
-**2.rrbot_ws（简化机械臂模型）**
+## 2.rrbot_ws（简化机械臂模型——2DOF）
 
 参考：https://github.com/ros-controls/roscon2022_workshop/tree/7-robot-hardware-interface/solution
 
