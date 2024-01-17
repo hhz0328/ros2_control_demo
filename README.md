@@ -17,7 +17,7 @@ ros2 control list_controllers
 ros2 topic list
 ```
 ```
-//重定向/diff_drive/cmd_vel_unstamped到键盘话题/cmd_vel，使用键盘去控制车轮速度
+//重定向/diff_drive/cmd_vel_unstamped话题到键盘话题/cmd_vel，使用键盘去控制车轮速度
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_drive/cmd_vel_unstamped
 
 ```
