@@ -36,6 +36,10 @@ ros2 launch controlko_bringup rrbot_sim_gazebo.launch.py
 ```
 ```
 //在gazebo环境启动的基础上，启动控制launch（每4s发布一次目标位置）
+
+// 
 ros2 launch controlko_bringup test_joint_trajectory_controller.launch.py
+
+ros2 launch controlko_bringup test_forward_position_controller.launch.py
 ```
 
