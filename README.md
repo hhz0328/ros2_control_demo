@@ -26,6 +26,8 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/di
 **2.rrbot_ws（简化机械臂模型）**
 
 参考：https://github.com/ros-controls/roscon2022_workshop/tree/7-robot-hardware-interface/solution
+
+**2-1 demo例程**
 ```
 // 启动一个即可，推荐第一个
 
@@ -42,4 +44,7 @@ ros2 launch controlko_bringup test_joint_trajectory_controller.launch.py
 
 ros2 launch controlko_bringup test_forward_position_controller.launch.py
 ```
+
+**2-1 自己编写的hardware_interface**
+
 
