@@ -1,4 +1,4 @@
-# bbot_ros2_control_demo
+# ros2_control_demo
 ros2_control——hardware编写测试
 
 **1.rrbot_demo-main(差速小车模型），启动gazebo，用ros2_control命令行控制**
