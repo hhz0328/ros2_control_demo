@@ -1,7 +1,7 @@
 # bbot_ros2_control_demo
 ros2_control——hardware编写测试
 
-**1.rrbot_demo模型，启动gazebo，用ros2_control命令行控制**
+**1.rrbot_demo-main模型，启动gazebo，用ros2_control命令行控制**
 
 参考：https://github.com/WMGIII/bbot_demo
 ```
