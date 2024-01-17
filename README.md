@@ -25,9 +25,15 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/di
 
 参考：https://github.com/ros-controls/roscon2022_workshop/tree/7-robot-hardware-interface/solution
 ```
+// 启动一个即可，推荐第一个
+
 // 老版本gazebo环境
 ros2 launch controlko_bringup rrbot_sim_gazebo_classic.launch.py
 // 新版本gazebo环境
 ros2 launch controlko_bringup rrbot_sim_gazebo.launch.py
+```
+```
+//在gazebo环境启动的基础上，启动控制launch（每4s发布一次目标位置）
+ros2 launch controlko_bringup test_joint_trajectory_controller.launch.py
 ```
 
