@@ -31,7 +31,7 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/di
 
 **2-1 demo例程**
 
-与2-2使用的rrbot_macro.ros2_control.xacro文件内容不同， 2-1使用时需要，打开文件中所有注释的内容
+软件包自带的例程，demo未跑通，但是问题不大
 ```
 // 启动一个即可，推荐第一个
 
@@ -51,9 +51,15 @@ ros2 launch controlko_bringup test_forward_position_controller.launch.py
 
 **2-2 自己编写的hardware_interface**
 
-与2-1使用的rrbot_macro.ros2_control.xacro文件内容不同， 2-2使用时需要，注释部分内容
 ```
 ros2 launch controlko_bringup rrbot_real.launch.py
 ros2 launch controlko_bringup test_forward_position_controller.launch.py
+```
+
+**2-3 自己编写的controller**
+
+```
+ros2 launch controlko_bringup rrbot_real_new.launch.py
+
 ```
 
