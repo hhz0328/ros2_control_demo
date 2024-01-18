@@ -52,8 +52,8 @@ ros2 launch controlko_bringup test_forward_position_controller.launch.py
 **2-2 自己编写的hardware_interface**
 
 与2-1使用的rrbot_macro.ros2_control.xacro文件内容不同， 2-2使用时需要，注释部分内容
-‘’‘
+```
 ros2 launch controlko_bringup rrbot_real.launch.py
 ros2 launch controlko_bringup test_forward_position_controller.launch.py
-’‘’
+```
 
