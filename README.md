@@ -27,6 +27,8 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/di
 
 参考：https://github.com/ros-controls/roscon2022_workshop/tree/7-robot-hardware-interface/solution
 
+参考：https://github.com/ros-controls/ros2_controllers/tree/humble （forward_command_controller）
+
 **2-1 demo例程**
 
 与2-2使用的rrbot_macro.ros2_control.xacro文件内容不同， 2-1使用时需要，打开文件中所有注释的内容
