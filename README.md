@@ -52,6 +52,8 @@ ros2 launch controlko_bringup test_forward_position_controller.launch.py
 **2-2 自己编写的hardware_interface**
 
 ```
+// my_hardware_interface功能包
+
 ros2 launch controlko_bringup rrbot_real.launch.py
 ros2 launch controlko_bringup test_forward_position_controller.launch.py
 ```
@@ -59,6 +61,8 @@ ros2 launch controlko_bringup test_forward_position_controller.launch.py
 **2-3 自己编写的controller**
 
 ```
+// my_position_controller功能包
+
 ros2 launch controlko_bringup rrbot_real_new.launch.py
 
 ```
