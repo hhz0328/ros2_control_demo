@@ -1,6 +1,8 @@
 # ros2_control_demo
 ros2_control——hardware编写测试
 
+包含两个工作空间，分别编译即可
+
 ## 查看controller & hardware_interface
 ```
 // 查看hardware_interfaces
