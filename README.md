@@ -64,7 +64,9 @@ ros2 launch controlko_bringup test_forward_position_controller.launch.py
 // my_position_controller功能包
 
 ros2 launch controlko_bringup rrbot_real_new.launch.py
+// 发布话题
 ros2 run test_my_position_controller talker
+// 接收话题
 ros2 run test_my_position_controller listener
 
 ```
